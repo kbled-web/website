@@ -1,0 +1,388 @@
+<!doctype html>
+<html lang="de" class="scroll-smooth">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>K+B LED Leuchten — Professionelle LED‑Leuchten</title>
+  <meta name="description" content="Professionelle LED‑Leuchten Made in Germany: modulare lineare Systeme KB Silverline PRO für Büro, Lager, Produktion. 5 Jahre Garantie, kostenloser Versand ab 50 €." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { sans: ['Inter', 'ui-sans-serif', 'system-ui'] },
+          colors: {
+            brand: { DEFAULT: '#95bb1b', dark: '#7aa014' }
+          },
+          boxShadow: {
+            soft: '0 10px 30px rgba(2,8,23,0.08)'
+          }
+        }
+      },
+      darkMode: 'class'
+    }
+  </script>
+  <style>
+    ::-webkit-scrollbar{width:10px;height:10px}
+    ::-webkit-scrollbar-thumb{background:#cbd5e1;border-radius:8px}
+    .glass{backdrop-filter: blur(8px); background: rgba(255,255,255,.6)}
+    .dark .glass{background: rgba(2,6,23,.6)}
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800 dark:bg-slate-950 dark:text-slate-100">
+  <!-- Top bar -->
+  <div class="w-full bg-gradient-to-r from-brand to-lime-400 text-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2 flex items-center justify-between text-sm">
+      <p class="flex items-center gap-2"><span class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-white/20">🇩🇪</span> Made in Germany • 5 Jahre Garantie • Versand ab 50 € kostenlos</p>
+      <a class="underline/30 hover:underline" href="https://www.kb-led-leuchten.de/" target="_blank" rel="noopener">Originalseite</a>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="sticky top-0 z-40 border-b border-slate-200/60 dark:border-slate-800/60 bg-white/80 dark:bg-slate-900/70 glass">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex h-16 items-center justify-between">
+        <div class="flex items-center gap-3">
+          <div class="w-9 h-9 rounded-xl bg-brand shadow-soft"></div>
+          <div>
+            <div class="text-base font-semibold tracking-tight">K+B LED Leuchten</div>
+            <div class="text-xs text-slate-500 dark:text-slate-400">lighting systems GmbH</div>
+          </div>
+        </div>
+        <nav class="hidden md:flex items-center gap-6 text-sm">
+          <a href="#products" class="hover:text-brand">Produkte</a>
+          <a href="#features" class="hover:text-brand">Vorteile</a>
+          <a href="#specs" class="hover:text-brand">Technische Daten</a>
+          <a href="#accessories" class="hover:text-brand">Zubehör</a>
+          <a href="#about" class="hover:text-brand">Über uns</a>
+          <a href="#contact" class="hover:text-brand">Kontakt</a>
+        </nav>
+        <div class="flex items-center gap-3">
+          <button id="themeToggle" type="button" aria-label="Theme wechseln" class="rounded-xl border border-slate-200 dark:border-slate-700 px-3 py-2 text-sm hover:bg-slate-100 dark:hover:bg-slate-800">Modus</button>
+          <button class="md:hidden rounded-xl border border-slate-200 dark:border-slate-700 px-3 py-2 text-sm" id="menuBtn">Menü</button>
+        </div>
+      </div>
+      <nav id="mobileNav" class="md:hidden hidden pb-4">
+        <div class="grid gap-2 text-sm">
+          <a href="#products" class="px-3 py-2 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800">Produkte</a>
+          <a href="#features" class="px-3 py-2 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800">Vorteile</a>
+          <a href="#specs" class="px-3 py-2 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800">Technische Daten</a>
+          <a href="#accessories" class="px-3 py-2 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800">Zubehör</a>
+          <a href="#about" class="px-3 py-2 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800">Über uns</a>
+          <a href="#contact" class="px-3 py-2 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800">Kontakt</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="relative overflow-hidden">
+    <div class="absolute inset-0 -z-10">
+      <img src="https://images.unsplash.com/photo-1511275539165-cc46b1ee89bf?q=80&w=2400&auto=format&fit=crop" alt="LED Licht" class="w-full h-full object-cover opacity-30">
+      <div class="absolute inset-0 bg-gradient-to-b from-white/70 via-transparent to-white/90 dark:from-slate-900/70 dark:to-slate-900"></div>
+    </div>
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28">
+      <div class="grid md:grid-cols-2 gap-10 items-center">
+        <div>
+          <h1 class="text-4xl md:text-5xl font-semibold leading-tight">Professionelle LED‑Leuchten <span class="text-brand">KB Silverline PRO</span></h1>
+          <p class="mt-4 text-lg text-slate-600 dark:text-slate-300">Modulare lineare Systeme für Arbeitsplätze, Büros, Lager und Produktion. Effizienz bis 180 lm/W, CRI &gt; 80, IP40, DALI‑Option, 3000/4000/5000 K.</p>
+          <div class="mt-6 flex flex-wrap gap-3">
+            <a href="#products" class="inline-flex items-center gap-2 rounded-2xl bg-brand hover:bg-brand-dark text-white px-5 py-3 shadow-soft">Produkte ansehen</a>
+            <a href="#contact" class="inline-flex items-center gap-2 rounded-2xl border border-slate-300 dark:border-slate-700 px-5 py-3 hover:bg-slate-100 dark:hover:bg-slate-800">Angebot anfordern</a>
+          </div>
+          <ul class="mt-6 grid grid-cols-2 gap-3 text-sm text-slate-600 dark:text-slate-300">
+            <li class="flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-emerald-500"></span> 5 Jahre Garantie</li>
+            <li class="flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-emerald-500"></span> Versand ab 50 € kostenlos</li>
+            <li class="flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-emerald-500"></span> Made in Germany</li>
+            <li class="flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-emerald-500"></span> Schnelle Montage, modular</li>
+          </ul>
+        </div>
+        <div class="relative">
+          <div class="aspect-[4/3] rounded-3xl overflow-hidden shadow-soft ring-1 ring-slate-200 dark:ring-slate-800 bg-gradient-to-br from-slate-100 to-slate-200 dark:from-slate-800 dark:to-slate-900">
+            <img src="https://images.unsplash.com/photo-1605419589330-0b6dede4c265?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Lineare Leuchte" class="w-full h-full object-cover"/>
+          </div>
+          <div class="absolute -bottom-6 right-6 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-2xl px-4 py-3 shadow-soft">
+            <div class="text-xs text-slate-500">Beispielkonfiguration</div>
+            <div class="font-medium">56 cm • 3000 K • 8,7 W • 1710 lm</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features / USP -->
+  <section id="features" class="py-16 md:py-24">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid lg:grid-cols-4 md:grid-cols-2 gap-6">
+        <div class="rounded-2xl border border-slate-200 dark:border-slate-800 p-6 bg-white dark:bg-slate-900 shadow-soft">
+          <div class="text-sm text-slate-500">Energieeffizienz</div>
+          <div class="mt-2 text-xl font-semibold">bis 180 lm/W</div>
+          <p class="mt-2 text-sm text-slate-600 dark:text-slate-300">Hohe Lichtausbeute senkt die Energiekosten.</p>
+        </div>
+        <div class="rounded-2xl border border-slate-200 dark:border-slate-800 p-6 bg-white dark:bg-slate-900 shadow-soft">
+          <div class="text-sm text-slate-500">Lichtqualität</div>
+          <div class="mt-2 text-xl font-semibold">CRI &gt; 80</div>
+          <p class="mt-2 text-sm text-slate-600 dark:text-slate-300">Angenehme Farbwiedergabe für Arbeitsräume.</p>
+        </div>
+        <div class="rounded-2xl border border-slate-200 dark:border-slate-800 p-6 bg-white dark:bg-slate-900 shadow-soft">
+          <div class="text-sm text-slate-500">Zuverlässigkeit</div>
+          <div class="mt-2 text-xl font-semibold">IP40 • DALI</div>
+          <p class="mt-2 text-sm text-slate-600 dark:text-slate-300">Dimmen optional, robustes Thermomanagement.</p>
+        </div>
+        <div class="rounded-2xl border border-slate-200 dark:border-slate-800 p-6 bg-white dark:bg-slate-900 shadow-soft">
+          <div class="text-sm text-slate-500">Herkunft</div>
+          <div class="mt-2 text-xl font-semibold">Made in Germany</div>
+          <p class="mt-2 text-sm text-slate-600 dark:text-slate-300">Fertigung in Deutschland, 5 Jahre Garantie.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Products -->
+  <section id="products" class="py-8 md:py-12 bg-white dark:bg-slate-900 border-y border-slate-200/60 dark:border-slate-800/60">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-end justify-between flex-wrap gap-4">
+        <div>
+          <h2 class="text-2xl md:text-3xl font-semibold">KB Silverline PRO</h2>
+          <p class="mt-2 text-slate-600 dark:text-slate-300">Längen 56–168 cm • 3000/4000/5000 K • 200–425 mA • optional DALI • klar/matt/prismatisch.</p>
+        </div>
+        <div>
+          <a href="#contact" class="inline-flex items-center gap-2 rounded-xl border border-slate-300 dark:border-slate-700 px-4 py-2 text-sm hover:bg-slate-100 dark:hover:bg-slate-800">Preisliste anfordern</a>
+        </div>
+      </div>
+
+      <div class="mt-8 grid md:grid-cols-3 gap-6">
+        <!-- Card 1 -->
+        <article class="group rounded-2xl border border-slate-200 dark:border-slate-800 overflow-hidden bg-slate-50 dark:bg-slate-900">
+          <div class="aspect-[4/3] overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?q=80&w=1200&auto=format&fit=crop" alt="Silverline 56 cm" class="w-full h-full object-cover group-hover:scale-[1.02] transition" />
+          </div>
+          <div class="p-6">
+            <h3 class="text-lg font-semibold">Silverline PRO • 56 cm</h3>
+            <p class="mt-1 text-sm text-slate-600 dark:text-slate-300">3000/4000/5000 K • 200–250 mA • bis 1710 lm • 8,7–10 W • nicht dimmbar / DALI.</p>
+            <div class="mt-4 flex items-center justify-between">
+              <span class="inline-flex items-center text-xs px-2 py-1 rounded-lg bg-emerald-100 text-emerald-700 dark:bg-emerald-900/20 dark:text-emerald-300">Effizient</span>
+              <a class="text-brand hover:opacity-80 text-sm" href="https://www.kb-led-leuchten.de/" target="_blank" rel="noopener">Details</a>
+            </div>
+          </div>
+        </article>
+        <!-- Card 2 -->
+        <article class="group rounded-2xl border border-slate-200 dark:border-slate-800 overflow-hidden bg-slate-50 dark:bg-slate-900">
+          <div class="aspect-[4/3] overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?q=80&w=1200&auto=format&fit=crop" alt="Silverline 112 cm" class="w-full h-full object-cover group-hover:scale-[1.02] transition" />
+          </div>
+          <div class="p-6">
+            <h3 class="text-lg font-semibold">Silverline PRO • 112 cm</h3>
+            <p class="mt-1 text-sm text-slate-600 dark:text-slate-300">4000 K beliebt • 300–350 mA • hohe Lichtausbeute • optional DALI.</p>
+            <div class="mt-4 flex items-center justify-between">
+              <span class="inline-flex items-center text-xs px-2 py-1 rounded-lg bg-lime-100 text-lime-700 dark:bg-lime-900/20 dark:text-lime-300">Universell</span>
+              <a class="text-brand hover:opacity-80 text-sm" href="https://www.kb-led-leuchten.de/" target="_blank" rel="noopener">Details</a>
+            </div>
+          </div>
+        </article>
+        <!-- Card 3 -->
+        <article class="group rounded-2xl border border-slate-200 dark:border-slate-800 overflow-hidden bg-slate-50 dark:bg-slate-900">
+          <div class="aspect-[4/3] overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?q=80&w=1200&auto=format&fit=crop" alt="Silverline 168 cm" class="w-full h-full object-cover group-hover:scale-[1.02] transition" />
+          </div>
+          <div class="p-6">
+            <h3 class="text-lg font-semibold">Silverline PRO • 168 cm</h3>
+            <p class="mt-1 text-sm text-slate-600 dark:text-slate-300">Maximale Profillänge • 350–425 mA • durchgehende Lichtbänder.</p>
+            <div class="mt-4 flex items-center justify-between">
+              <span class="inline-flex items-center text-xs px-2 py-1 rounded-lg bg-fuchsia-100 text-fuchsia-700 dark:bg-fuchsia-900/20 dark:text-fuchsia-300">Lichtband</span>
+              <a class="text-brand hover:opacity-80 text-sm" href="https://www.kb-led-leuchten.de/" target="_blank" rel="noopener">Details</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Specs -->
+  <section id="specs" class="py-16 md:py-24">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-2xl md:text-3xl font-semibold">Technische Daten</h2>
+      <div class="mt-6 overflow-x-auto border border-slate-200 dark:border-slate-800 rounded-2xl">
+        <table class="min-w-full text-sm">
+          <tbody class="divide-y divide-slate-200 dark:divide-slate-800">
+            <tr>
+              <td class="p-4 font-medium">Lichtausbeute (Module)</td>
+              <td class="p-4">bis 180 lm/W</td>
+            </tr>
+            <tr>
+              <td class="p-4 font-medium">Farbwiedergabe</td>
+              <td class="p-4">CRI &gt; 80</td>
+            </tr>
+            <tr>
+              <td class="p-4 font-medium">Schutzart</td>
+              <td class="p-4">IP40</td>
+            </tr>
+            <tr>
+              <td class="p-4 font-medium">Versorgung</td>
+              <td class="p-4">220–240 V, 50/60 Hz</td>
+            </tr>
+            <tr>
+              <td class="p-4 font-medium">Farbtemperatur</td>
+              <td class="p-4">3000 K / 4000 K / 5000 K</td>
+            </tr>
+            <tr>
+              <td class="p-4 font-medium">Strom</td>
+              <td class="p-4">200–425 mA (modellabhängig)</td>
+            </tr>
+            <tr>
+              <td class="p-4 font-medium">Dimmung</td>
+              <td class="p-4">Nicht dimmbar oder DALI</td>
+            </tr>
+            <tr>
+              <td class="p-4 font-medium">Optiken</td>
+              <td class="p-4">Klar, matt, konische Prisma</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="mt-3 text-xs text-slate-500">*Werte je nach Konfiguration. Für die exakte Spezifikation bitte anfragen.</p>
+    </div>
+  </section>
+
+  <!-- Accessories -->
+  <section id="accessories" class="py-16 md:py-24 bg-slate-100/60 dark:bg-slate-900/40">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-end justify-between flex-wrap gap-4">
+        <div>
+          <h2 class="text-2xl md:text-3xl font-semibold">Zubehör & Montage</h2>
+          <p class="mt-2 text-slate-600 dark:text-slate-300">Seilabhängungen 3/5 m, dekorative und Träger‑Befestigungen. Traglast bis 15 kg, Sicherheitsfaktor 5:1, Seil‑Ø 1,5 mm.</p>
+        </div>
+        <a href="https://www.kb-led-leuchten.de/" target="_blank" rel="noopener" class="inline-flex items-center gap-2 rounded-xl border border-slate-300 dark:border-slate-700 px-4 py-2 text-sm hover:bg-slate-100 dark:hover:bg-slate-800">Zubehör‑Katalog</a>
+      </div>
+      <div class="mt-8 grid md:grid-cols-3 gap-6">
+        <div class="rounded-2xl border border-slate-200 dark:border-slate-800 p-6 bg-white dark:bg-slate-950">
+          <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=1200&auto=format&fit=crop" alt="Seilabhängung" class="w-full h-40 object-cover rounded-xl"/>
+          <div class="font-semibold mt-3">Seilabhängungen 3 m</div>
+          <p class="mt-1 text-sm text-slate-600 dark:text-slate-300">Satz: 4 Halter, 2 Haken, 2 Stahlseile, Befestigung.</p>
+        </div>
+        <div class="rounded-2xl border border-slate-200 dark:border-slate-800 p-6 bg-white dark:bg-slate-950">
+          <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=1200&auto=format&fit=crop" alt="Seil 5m" class="w-full h-40 object-cover rounded-xl"/>
+          <div class="font-semibold mt-3">Seilabhängungen 5 m</div>
+          <p class="mt-1 text-sm text-slate-600 dark:text-slate-300">Für hohe Decken und Lichtbänder.</p>
+        </div>
+        <div class="rounded-2xl border border-slate-200 dark:border-slate-800 p-6 bg-white dark:bg-slate-950">
+          <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=1200&auto=format&fit=crop" alt="Prismatische Abdeckung" class="w-full h-40 object-cover rounded-xl"/>
+          <div class="font-semibold mt-3">Prismatische Abdeckung</div>
+          <p class="mt-1 text-sm text-slate-600 dark:text-slate-300">Gleichmäßige Ausleuchtung, weniger Blendung.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-16 md:py-24">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-2xl md:text-3xl font-semibold">Über uns</h2>
+      <div class="mt-6 grid md:grid-cols-2 gap-8 items-start">
+        <p class="text-slate-600 dark:text-slate-300 leading-relaxed">K+B lighting systems GmbH — über 30 Jahre Erfahrung in LED‑Technik und Elektrotechnik. Produktionsstandorte in Schelklingen und Bad Bergzabern, 70+ Mitarbeitende. Fokus auf Energieeffizienz und nachhaltiger Fertigung.</p>
+        <ul class="grid gap-3 text-sm text-slate-600 dark:text-slate-300">
+          <li class="flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-brand"></span> Beratung & Projekt‑Auslegung</li>
+          <li class="flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-brand"></span> Individuelle Modul‑Konfigurationen</li>
+          <li class="flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-brand"></span> Service & Support</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-16 md:py-24 bg-white dark:bg-slate-900 border-t border-slate-200/60 dark:border-slate-800/60">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid md:grid-cols-2 gap-10 items-start">
+        <div>
+          <h2 class="text-2xl md:text-3xl font-semibold">Angebot anfordern</h2>
+          <p class="mt-2 text-slate-600 dark:text-slate-300">Bitte geben Sie Länge (56/112/168 cm), CCT (3000/4000/5000 K), Strom (200–425 mA), Dimmung (DALI/kein), Optik an.</p>
+          <form class="mt-6 grid gap-4" onsubmit="event.preventDefault(); alert('Danke! Wir melden uns bei Ihnen.'); this.reset();">
+            <div class="grid sm:grid-cols-2 gap-4">
+              <input required type="text" placeholder="Name" class="w-full rounded-xl border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-950 px-4 py-3" />
+              <input required type="email" placeholder="E‑Mail" class="w-full rounded-xl border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-950 px-4 py-3" />
+            </div>
+            <input type="tel" placeholder="Telefon" class="w-full rounded-xl border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-950 px-4 py-3" />
+            <select class="w-full rounded-xl border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-950 px-4 py-3">
+              <option>Länge: 56 cm</option>
+              <option>Länge: 112 cm</option>
+              <option>Länge: 168 cm</option>
+            </select>
+            <select class="w-full rounded-xl border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-950 px-4 py-3">
+              <option>CCT: 3000 K</option>
+              <option>CCT: 4000 K</option>
+              <option>CCT: 5000 K</option>
+            </select>
+            <select class="w-full rounded-xl border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-950 px-4 py-3">
+              <option>Dimmung: keine</option>
+              <option>Dimmung: DALI</option>
+            </select>
+            <textarea rows="4" placeholder="Projekt & Montagebedingungen" class="w-full rounded-xl border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-950 px-4 py-3"></textarea>
+            <button class="inline-flex items-center justify-center rounded-2xl bg-brand hover:bg-brand-dark text-white px-5 py-3 shadow-soft">Senden</button>
+          </form>
+        </div>
+        <div class="rounded-2xl border border-slate-200 dark:border-slate-800 p-6 bg-slate-50 dark:bg-slate-900">
+          <div class="text-sm text-slate-500">Hotline</div>
+          <div class="mt-1 text-xl font-semibold">+49 6343 93472‑0</div>
+          <div class="mt-2 text-sm text-slate-600 dark:text-slate-300">Mo–Fr, 08:00–18:00 (CET)</div>
+          <div class="mt-6 text-sm text-slate-500">Adresse</div>
+          <div class="mt-1">K+B lighting systems GmbH</div>
+          <div class="text-sm text-slate-600 dark:text-slate-300">Deutschland</div>
+          <a class="mt-6 inline-flex text-brand hover:opacity-80 text-sm" target="_blank" rel="noopener" href="https://www.kb-led-leuchten.de/">kb-led-leuchten.de</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row items-center justify-between gap-4">
+        <p class="text-sm text-slate-500">© <span id="y"></span> K+B LED Leuchten. Demo‑Seite für Pflichtenheft.</p>
+        <div class="flex items-center gap-4 text-sm">
+          <a href="#about" class="hover:text-brand">Über uns</a>
+          <a href="#contact" class="hover:text-brand">Kontakt</a>
+          <a href="https://www.kb-led-leuchten.de/" target="_blank" rel="noopener" class="hover:text-brand">Original</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JSON-LD (vereinfacht) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "KB Silverline PRO",
+    "brand": {"@type":"Brand","name":"K+B lighting systems GmbH"},
+    "category": "Lighting",
+    "description": "Modulares lineares LED‑System für Büro, Lager und Produktion. Bis 180 lm/W, CRI>80, IP40, DALI‑Option.",
+    "offers": {
+      "@type": "AggregateOffer",
+      "priceCurrency": "EUR",
+      "lowPrice": "0",
+      "highPrice": "0",
+      "offerCount": "3"
+    }
+  }
+  </script>
+
+  <script>
+    const html = document.documentElement;
+    const stored = localStorage.getItem('theme');
+    if (stored === 'dark' || (!stored && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+      html.classList.add('dark');
+    }
+    document.getElementById('themeToggle').addEventListener('click', () => {
+      html.classList.toggle('dark');
+      localStorage.setItem('theme', html.classList.contains('dark') ? 'dark' : 'light');
+    });
+    document.getElementById('menuBtn').addEventListener('click', () => {
+      document.getElementById('mobileNav').classList.toggle('hidden');
+    });
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
